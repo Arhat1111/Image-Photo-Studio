@@ -1,26 +1,15 @@
-IMAGE PHOTO STUDIO — STATIC WEBSITE
+IMAGE PHOTO STUDIO — RESPONSIVE WEBSITE
 
 Files:
-- index.html
-- styles.css
-- script.js
-- favicon.svg
+- index.html — full-screen auto hero slider + collage slider + categories + reviews teaser
+- portfolio.html — filterable image-led work page
+- services.html — complete service page
+- about.html — studio story
+- reviews.html — fixed reviews page with Google link + map
+- contact.html — contact information + WhatsApp enquiry form
+- styles.css — shared responsive design
+- script.js — page-safe navigation, sliders, reveals, portfolio filters and contact form
 
-HOW TO USE
-1. Keep all four files in the same folder.
-2. Open index.html in a browser.
-3. Upload the folder contents to any static host (cPanel, Netlify, Cloudflare Pages, GitHub Pages, etc.).
+Important: portfolio photographs are currently referenced from the studio's public portfolio URLs. For a production launch, replace those remote URLs with original image files supplied by Image Photo Studio so the site does not depend on a third-party image host.
 
-CONTENT USED
-- Studio: Image Photo Studio, Vesu, Surat
-- Phone / WhatsApp: +91 98985 51450
-- Instagram: @image_photo_studio2021
-- YouTube: @ImagePhotoStudio3
-- Address: U-2, Shiv Kartik Enclave - Tower A, near Nandadi 2, Vesu, Surat, Gujarat 395007
-- Publicly listed services include weddings, candid/traditional photography, cinematography, drone shoots, photobooth, live screening, portraits, maternity/baby, corporate/events and product photography.
-
-PORTFOLIO IMAGES
-The included visual direction uses free Unsplash images as placeholders/sample art direction because the studio's original high-resolution gallery files were not directly downloadable from the supplied Linktree. For the final live site, replace the image `src` URLs in index.html with the studio's own photographs for an authentic portfolio.
-
-CONTACT FORM
-The inquiry form does not use a backend and stores no data. It opens WhatsApp with the enquiry details pre-filled.
+The Google review button opens the public Google listing. A truly auto-synced review feed would require a Google Places API setup.
